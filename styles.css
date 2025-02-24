@@ -323,8 +323,47 @@ section h2 {
     width: 100%;
 }
 
+/* Contac-Section */
 
+#message-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 
+#message-section input,
+#message-section textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+
+}
+
+#message-section input::placeholder,
+#message-section textarea::placeholder {
+    color: #888;
+}
+
+#message-section button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#nessage-section button:hover {
+    background-color: #0056b3;
+}
 
 
 
