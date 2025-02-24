@@ -30,6 +30,8 @@ body {
     background-position: center;
     background-color: rgba(191, 214, 196, 0.9);
     padding-top: 90px;
+    width: 100%;
+    
 }
 
 nav {
@@ -71,6 +73,9 @@ section {
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.144);
     justify-content: space-between;
+    max-width: 1400px;
+    width: 100%
+
 }
 
 section:nth-of-type(odd) {
@@ -98,10 +103,10 @@ section h2 {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    max-width: 1400px;
     margin: 0 auto;
-    padding: 50px 20px;
 }
+
+
 #about-section .photo {
     flex: 1;
     max-width: 40%;
@@ -153,16 +158,80 @@ section h2 {
 /*Projects  Section */
 #project-section {
     display: flex;
-    align-items: center; 
-    justify-content: flex-start;
-    flex-direction: column;
-    max-width: 1400px;
+    flex-direction: column;  /* Stellt sicher, dass die Subsektionen übereinander sind */
     margin: 0 auto;
-    padding: 50px 20px;
+
 }
+
 
 #project-section h2 {
     font-size: 2rem;
     margin-bottom: 10px;
     align-self: flex-start; 
+    width: 100%;
+}
+
+.project-subsection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+
+.personal-projects {
+    display: flex;
+    justify-content: flex-start; 
+    flex-direction: column;
+}
+
+.project-subsection .personal-projects .website {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-projects h3 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+
+.school-projects {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bohnanza {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-subsection .personal-projects h3,
+.project-subsection .school-projects h3 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Skills-Section */
+#skill-section {
+    display: flex;
+    flex-direction: column;  /* Stellt sicher, dass die Subsektionen übereinander sind */
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .project-subsection {
+        width: 100%;  /* Beide Spalten untereinander auf kleineren Bildschirmen */
+    }
 }
