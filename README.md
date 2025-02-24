@@ -12,7 +12,7 @@ This is my Personal Portfolio-Website build in HTML and CSS.
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/your-repository.git
+`git clone https://github.com/maejana/Portfolio-Website.git`
 
 2. Open the index.html file in a browser.
 
