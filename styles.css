@@ -208,9 +208,9 @@ section h2 {
     padding: 20px;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 260px;
+    max-width: 50%;
     height: auto;
-    max-height: 300px;
+    max-height: 100%;
     transition: transform 0.3s ease;
 }
 .project:hover {
@@ -238,7 +238,7 @@ section h2 {
 }
 
 .project .project-image {
-    width: 20px;
+    width: 20%;
     height: 20px; /* Feste Höhe für das Bild */
     border-radius: 10px;
     object-fit: contain;
@@ -328,8 +328,23 @@ section h2 {
 
 
 
+/* Anpassung für Tablets (max. 768px) */
 @media (max-width: 768px) {
+    .section {
+        flex-direction: column;  /* Spalten untereinander */
+    }
     .project-subsection {
-        width: 100%;  /* Beide Spalten untereinander auf kleineren Bildschirmen */
+        width: 100%;  /* Volle Breite auf kleinen Geräten */
     }
 }
+
+/* Anpassung für Smartphones (max. 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Kleinere Schrift für bessere Lesbarkeit */
+    }
+    .section {
+        padding: 10px; /* Mehr Abstand, damit es angenehmer aussieht */
+    }
+}
+
