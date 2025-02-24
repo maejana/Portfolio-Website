@@ -23,33 +23,24 @@
             </div>
            </nav>
         </header>
-        <section id="skill-section">
-            <h2>Skills</h2>
-            <div class="icons">
-                <i class="fa-brands fa-java fa-2xl"></i>
-                <i class="fa-brands fa-python fa-2xl"></i>
-                <i class="fa-brands fa-github fa-2xl"></i>
-                <i class="fa-solid fa-database fa-2xl"></i>
-                <i class="fa-brands fa-html5 fa-2xl"></i>
-            </div>
-            
-            <h3> IDE's used</h3>
-            <div class="ides">
-                
-                <div class="vscode-icon">
-                    <img src="images/vscode.svg" width="50"/>  
-                </div>
-                <div class="intellj-icon">
-                    <img src="images/icons8-intellij-idea.svg" width="50"/>
-                </div>
-            </div>
-        </section>
 
+        <section id="message-section">
+            <h2>Send me a message!</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Dein Name" required>
+                <input type="email" id="email" placeholder="Deine E-Mail" required>
+                <textarea id="message" placeholder="Deine Nachricht" required></textarea>
+                <button type="submit">Senden</button>
+            </form>
+        
+            <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+            <script src="script.js"></script>
+        </section>
+        
+        
         <section id="impressium-section"> 
             <p>2025 Jana G. All rights reserved.</p>
         </section>
     
     </body>
 </html>
-
-
