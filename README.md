@@ -25,4 +25,4 @@ This is my Personal Portfolio-Website build in HTML and CSS.
 This project is open-source and free to use under the MIT License. 
 
 ## Contact
-Creadted by Jana Gölz - feel free to reach out!
+Creadted by [Jana Gölz](https://chatgpt.com/c/67bc8a0b-95b4-8003-aba9-5ed7e8f00236) - feel free to reach out!
