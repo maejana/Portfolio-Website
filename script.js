@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    emailjs.init("JAh8KV9XE4D8SuIHw"); // Ersetze mit deinem Public Key von EmailJS
+    emailjs.init("D7RODTpSBfdLo8naY"); // Ersetze mit deinem Public Key von EmailJS
 
     document.getElementById("contact-form").addEventListener("submit", function (event) {
         event.preventDefault(); // Verhindert das Neuladen der Seite
