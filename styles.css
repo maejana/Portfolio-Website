@@ -109,7 +109,7 @@ section h2 {
 
 #about-section .photo {
     flex: 1;
-    max-width: 40%;
+    max-width: 25%;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
@@ -165,7 +165,7 @@ section h2 {
 
 
 #project-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 10px;
     align-self: flex-start; 
     width: 100%;
@@ -223,6 +223,36 @@ section h2 {
     flex-direction: column;  /* Stellt sicher, dass die Subsektionen übereinander sind */
     margin: 0 auto;
 }
+
+#skill-section h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    align-self: flex-start; 
+    width: 100%;  
+}
+
+.icons {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+
+#skill-section h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    align-self: flex-start; 
+    width: 100%;
+}
+
+.ides {
+    display: flex;
+    padding: 30px;
+    align-self: flex-start;
+    gap: 20px;
+    flex-direction: space-between;
+}
+
+
 
 
 
