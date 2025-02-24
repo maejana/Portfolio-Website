@@ -54,6 +54,11 @@ nav {
     padding: 0 20px;
 }
 
+.banner-left li,
+.banner-right li {
+    display: inline;
+}
+
 
 .banner-left a,
 .banner-right a {
@@ -329,6 +334,7 @@ section h2 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+
 }
 
 #message-section input,
@@ -362,7 +368,7 @@ section h2 {
 }
 
 #nessage-section button:hover {
-    background-color: #0056b3;
+    background-color: #fa530b ;
 }
 
 
@@ -379,6 +385,18 @@ section h2 {
 
 /* Anpassung für Smartphones (max. 480px) */
 @media (max-width: 480px) {
+    .banner-left li,
+    .banner-right li {
+        display: inline;
+    }
+
+
+    .banner-left a:hover,
+    .banner-right a:hover {
+        color: var(--link-color);
+        transition: color 0.3s ease-in-out;
+    }
+
     body {
         font-size: 14px; /* Kleinere Schrift für bessere Lesbarkeit */
     }
