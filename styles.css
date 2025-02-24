@@ -342,7 +342,7 @@ section h2 {
     width: 100%;
     padding: 1rem;
     margin: 0.5rem 0;
-    border: 1px solid #ccc;
+    border: 1px solid #cbcd78;
     border-radius: 5px;
     box-sizing: border-box;
     font-size: 1rem;
@@ -351,14 +351,14 @@ section h2 {
 
 #message-section input::placeholder,
 #message-section textarea::placeholder {
-    color: #888;
+    color: #93907a;
 }
 
 #message-section button {
     width: 100%;
     padding: 1rem;
     margin-top: 1rem;
-    background-color: #007bff;
+    background-color:  #fa530b;
     color: white;
     border: none;
     border-radius: 5px;
