@@ -1,11 +1,12 @@
 # Portfolio-Website
 
-This is my Personal Portfolio-Website build in HTML and CSS.
+This is my Personal Portfolio-Website build in HTML, CSS and JavaScript.
 
 ## Technologies Used
 - HTML
 - CSS
 - Google Fonts (Montserrat, Popppins)
+- JavaScript
 
 
 ## Setup and Installation
@@ -19,6 +20,12 @@ This is my Personal Portfolio-Website build in HTML and CSS.
 3. Modify styles.css to customize the design.
 
 4. (Optional) Add JavaScript functionality in the scripts/ folder.
+
+
+## Branch-Overvies
+- `main` → Stable-Version 
+- `CSS-HTML` → Without Contact Feature, written only in HTML and CSS.
+- `Contact-JS` → New Contact me Feature written with JavaScript.
 
 ## License
 
