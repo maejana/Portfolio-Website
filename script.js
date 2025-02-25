@@ -1,26 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Überprüfen, ob EmailJS korrekt geladen ist
+   
     if (!emailjs) {
         console.error("EmailJS library is not loaded!");
         return;
     }
 
-    // Formular-Submit-Event
+ 
     document.getElementById("contact-form").addEventListener("submit", function (event) {
-        event.preventDefault(); // Verhindert das Neuladen der Seite
+        event.preventDefault(); 
 
-        // Werte aus den Eingabefeldern holen
+        
         let name = document.getElementById("name").value;
         let email = document.getElementById("email").value;
         let message = document.getElementById("message").value;
 
-        // Formularfelder prüfen
+        
         if (!name || !email || !message) {
             alert("Please fill out all fields!");
             return;
         }
 
-        // Sende die Daten an EmailJS
         emailjs.send("service_kbpvxs6", "template_g7gvcia", {
             name: name,
             email: email,
