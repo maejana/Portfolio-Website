@@ -375,12 +375,48 @@ section h2 {
 
 
 /* Anpassung für Tablets (max. 768px) */
-@media (max-width: 768px) {
-    .section {
-        flex-direction: column;  /* Spalten untereinander */
+@media (max-width: 700px) {
+    .banner-left li,
+    .banner-right li {
+        display: inline;
+        max-width: auto;
+        max-height: auto;
+        
     }
-    .project-subsection {
-        width: 100%;  /* Volle Breite auf kleinen Geräten */
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(255, 205, 105, 0.9);
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.144);
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+
+    }
+
+    .banner-left a,
+    .banner-right a {
+        font-size: 1rem;
+    }
+
+
+    .banner-left a:hover,
+    .banner-right a:hover {
+        color: var(--link-color);
+        transition: color 0.3s ease-in-out;
+    }
+
+    body {
+        font-size: 14px; /* Kleinere Schrift für bessere Lesbarkeit */
+    }
+    .section {
+        padding: 10px; /* Mehr Abstand, damit es angenehmer aussieht */
     }
 }
 
@@ -389,7 +425,7 @@ section h2 {
     .banner-left li,
     .banner-right li {
         display: inline;
-        max-width: 20%;
+        max-width: auto;
         max-height: auto;
         
     }
