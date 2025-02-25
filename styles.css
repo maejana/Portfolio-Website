@@ -396,13 +396,14 @@ section h2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 10px;
+        padding: 0 5px;
 
     }
 
     .banner-left a,
     .banner-right a {
         font-size: 1rem;
+        padding: 0px
     }
 
 
@@ -459,10 +460,10 @@ section h2 {
     }
 
     body {
-        font-size: 14px; /* Kleinere Schrift für bessere Lesbarkeit */
+        font-size: 14px; 
     }
     .section {
-        padding: 10px; /* Mehr Abstand, damit es angenehmer aussieht */
+        padding: 10px; 
     }
 }
 
